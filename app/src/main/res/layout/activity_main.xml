@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".LearningModule">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_a"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="@string/a"
@@ -17,10 +17,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/A" />
+        app:srcCompat="@drawable/a" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_b"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="@string/b"
@@ -30,10 +30,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/B" />
+        app:srcCompat="@drawable/b" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_c"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter C"
@@ -43,10 +43,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/C" />
+        app:srcCompat="@drawable/c" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_d"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter D"
@@ -56,10 +56,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/D" />
+        app:srcCompat="@drawable/d" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_e"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter E"
@@ -69,10 +69,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.162"
-        app:srcCompat="@drawable/E" />
+        app:srcCompat="@drawable/e" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_f"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter F"
@@ -82,23 +82,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.162"
-        app:srcCompat="@drawable/F" />
+        app:srcCompat="@drawable/f" />
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="101dp"
-        android:layout_height="102dp"
-        android:contentDescription="letter H"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.662"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162"
-        app:srcCompat="@drawable/H" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_h"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter G"
@@ -108,10 +95,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.162"
-        app:srcCompat="@drawable/G" />
+        app:srcCompat="@drawable/h" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_g"
+        android:layout_width="101dp"
+        android:layout_height="102dp"
+        android:contentDescription="letter H"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162"
+        app:srcCompat="@drawable/g" />
+
+    <ImageButton
+        android:id="@+id/letter_i"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter I"
@@ -121,10 +121,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.324"
-        app:srcCompat="@drawable/I" />
+        app:srcCompat="@drawable/i" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_j"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter J"
@@ -134,10 +134,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.324"
-        app:srcCompat="@drawable/J" />
+        app:srcCompat="@drawable/j" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_k"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter K"
@@ -147,10 +147,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.324"
-        app:srcCompat="@drawable/K" />
+        app:srcCompat="@drawable/k" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_l"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter L"
@@ -160,10 +160,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.324"
-        app:srcCompat="@drawable/L" />
+        app:srcCompat="@drawable/l" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_m"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter M"
@@ -173,10 +173,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.486"
-        app:srcCompat="@drawable/M" />
+        app:srcCompat="@drawable/m" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_n"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter N"
@@ -186,10 +186,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.486"
-        app:srcCompat="@drawable/N" />
+        app:srcCompat="@drawable/n" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_o"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter O"
@@ -199,10 +199,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.486"
-        app:srcCompat="@drawable/O" />
+        app:srcCompat="@drawable/o" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_p"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter P"
@@ -212,10 +212,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.486"
-        app:srcCompat="@drawable/P" />
+        app:srcCompat="@drawable/p" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_q"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter Q"
@@ -225,10 +225,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.648"
-        app:srcCompat="@drawable/Q" />
+        app:srcCompat="@drawable/q" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_r"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter R"
@@ -238,10 +238,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.648"
-        app:srcCompat="@drawable/R" />
+        app:srcCompat="@drawable/r" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_s"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter S"
@@ -251,10 +251,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.648"
-        app:srcCompat="@drawable/S" />
+        app:srcCompat="@drawable/s" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_t"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter T"
@@ -264,10 +264,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.648"
-        app:srcCompat="@drawable/T" />
+        app:srcCompat="@drawable/t" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_u"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter U"
@@ -277,10 +277,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.81"
-        app:srcCompat="@drawable/U" />
+        app:srcCompat="@drawable/u" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_v"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter V"
@@ -290,10 +290,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.81"
-        app:srcCompat="@drawable/V" />
+        app:srcCompat="@drawable/v" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_w"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter W"
@@ -303,10 +303,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.81"
-        app:srcCompat="@drawable/W" />
+        app:srcCompat="@drawable/w" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_x"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter X"
@@ -316,10 +316,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.81"
-        app:srcCompat="@drawable/X" />
+        app:srcCompat="@drawable/x" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_y"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter Y"
@@ -329,10 +329,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.99"
-        app:srcCompat="@drawable/Y" />
+        app:srcCompat="@drawable/y" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/letter_z"
         android:layout_width="101dp"
         android:layout_height="102dp"
         android:contentDescription="letter Z"
@@ -342,6 +342,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.99"
-        app:srcCompat="@drawable/Z" />
+        app:srcCompat="@drawable/z" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

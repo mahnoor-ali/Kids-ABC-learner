@@ -2,4 +2,5 @@
     <string name="app_name">LearnABC</string>
     <string name="a">letter A</string>
     <string name="b">letter B</string>
+    <string name="description"> word corresponding to clicked letter"</string>
 </resources>
