@@ -36,7 +36,7 @@ Button repo;
                 startActivity(intent);
                 break;
             case R.id.quiz:
-                intent = new Intent(MainActivity.this, QuizModule.class );
+                intent = new Intent(MainActivity.this, quizSelection.class );
                 startActivity(intent);
                 break;
             case R.id.repo:

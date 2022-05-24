@@ -1,19 +1,16 @@
 package com.mano.learnabc;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.media.Image;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
-
 import java.util.Random;
 
 public class QuizModule extends AppCompatActivity implements View.OnClickListener {
+
     ImageButton nextBtn;
     //5 buttons that serve as  options
     ImageButton btn1;
@@ -36,9 +33,12 @@ public class QuizModule extends AppCompatActivity implements View.OnClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_module);
 
+        intent = getIntent();
+        alphabet = findViewById(R.id.alphabet);
+        alphabet.setText(intent.getStringExtra("alphabet"));
+
         //array of images corresponding to each alphabet
         int[] images = {R.drawable.apple, R.drawable.ball,R.drawable.cat,R.drawable.duck, R.drawable.egg,R.drawable.fish,R.drawable.goat,R.drawable.house, R.drawable.ink,R.drawable.jam,R.drawable.kite,R.drawable.lion, R.drawable.milk,R.drawable.nest,R.drawable.orange,R.drawable.pen, R.drawable.queen,R.drawable.rat, R.drawable.sun,R.drawable.tree,R.drawable.umbrella,R.drawable.van, R.drawable.web,R.drawable.xylo,R.drawable.yoyo,R.drawable.zip };
-        alphabet=findViewById(R.id.alphabet);
         //get id of all options
         btn1=findViewById(R.id.option1);
         btn2=findViewById(R.id.option2);
@@ -108,15 +108,14 @@ public class QuizModule extends AppCompatActivity implements View.OnClickListene
             case R.id.next:
                 break;
         }
-        // whatever case was executed, always move to next activity when a button is clicked after waiting for 5 sec
+        // whatever case was executed, always move to next activity when a button is clicked after waiting for 2 sec
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             public void run() {
                 intent = new Intent(QuizModule.this, quizSelection.class);
                 startActivity(intent);
             }
-        }, 5000);   //5 seconds
-
+        }, 2000);   //2 seconds
     }
 
 }
