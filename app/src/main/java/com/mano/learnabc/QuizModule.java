@@ -11,7 +11,6 @@ import java.util.Random;
 
 public class QuizModule extends AppCompatActivity implements View.OnClickListener {
 
-    ImageButton nextBtn;
     //5 buttons that serve as  options
     ImageButton btn1;
     ImageButton btn2;
@@ -45,7 +44,6 @@ public class QuizModule extends AppCompatActivity implements View.OnClickListene
         btn3=findViewById(R.id.option3);
         btn4=findViewById(R.id.option4);
         btn5=findViewById(R.id.option5);
-        nextBtn = findViewById(R.id.next);
         result = findViewById(R.id.result);
 
         btn1.setOnClickListener(this);
@@ -53,7 +51,6 @@ public class QuizModule extends AppCompatActivity implements View.OnClickListene
         btn3.setOnClickListener(this);
         btn4.setOnClickListener(this);
         btn5.setOnClickListener(this);
-        nextBtn.setOnClickListener(this);
 
        //generate random numbers in range of 26
         Random rand = new Random();
@@ -104,8 +101,6 @@ public class QuizModule extends AppCompatActivity implements View.OnClickListene
                 break;
             case R.id.option5:
                 checkCorrectness(btn5Resource, (alphabet.getText().toString()).charAt(0));
-                break;
-            case R.id.next:
                 break;
         }
         // whatever case was executed, always move to next activity when a button is clicked after waiting for 2 sec
