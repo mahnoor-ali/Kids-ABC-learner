@@ -21,8 +21,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="306dp"
+        android:layout_height="58dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="@string/que"
         android:textAlignment="center"
@@ -31,10 +31,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.057" />
+        app:layout_constraintVertical_bias="0.038" />
 
     <ImageButton
         android:id="@+id/option1"
@@ -100,7 +99,7 @@
         android:id="@+id/alphabet"
         android:layout_width="69dp"
         android:layout_height="85dp"
-        android:layout_marginStart="168dp"
+        android:layout_marginStart="180dp"
         android:layout_marginTop="100dp"
         android:text="A"
         android:textColor="#D61A5A"
