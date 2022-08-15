@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnABC">
         <activity
+            android:name=".ListView"
+            android:exported="false" />
+        <activity
             android:name=".quizSelection"
             android:exported="false" />
         <activity
