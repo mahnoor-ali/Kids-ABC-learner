@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 Intent intent;
 ImageButton learn;
 ImageButton quiz;
+Button summary;
 Button repo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,9 @@ Button repo;
         learn=findViewById(R.id.learn);
         quiz = findViewById(R.id.quiz);
         repo = findViewById(R.id.repo);
+        summary = findViewById(R.id.Summary);
+
+        summary.setOnClickListener(this);
         repo.setOnClickListener(this);
         learn.setOnClickListener(this);
         quiz.setOnClickListener(this);
@@ -43,6 +47,10 @@ Button repo;
                 Uri webpage = Uri.parse("https://github.com/Mahnoor786-dev/Kids-ABC-learner");
                 intent = new Intent(Intent.ACTION_VIEW, webpage);
                 startActivity(intent);
+            case R.id.Summary:
+                intent = new Intent(MainActivity.this, Summary.class );
+                startActivity(intent);
+                break;
         }
     }
 
